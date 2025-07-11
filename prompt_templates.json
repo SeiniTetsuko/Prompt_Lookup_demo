@@ -1,0 +1,89 @@
+{
+  "Job Interview": {
+    "Interview Question Generator": {
+      "template_name": {
+        "zh": "面试问题生成器",
+        "en": "Interview Question Generator"
+      },
+      "content": {
+        "zh": "你是一名面试官，请根据以下岗位描述生成5个结构化面试问题，涵盖技能匹配、行为面试和文化适配等维度。\n\n岗位描述：{job_description}\n问题偏好类型：{question_type}",
+        "en": "You are an interviewer. Please generate 5 structured interview questions based on the job description below. Cover technical fit, behavioral, and cultural aspects.\n\nJob Description: {job_description}\nPreferred Question Type (optional): {question_type}"
+      }
+    },
+    "Candidate Evaluation Summary": {
+      "template_name": {
+        "zh": "候选人面试评价总结",
+        "en": "Candidate Interview Summary"
+      },
+      "content": {
+        "zh": "你是一名HR，请根据以下内容撰写一份候选人面试总结，包括能力表现、优势与不足、是否推荐录用。\n\n候选人姓名：{candidate_name}\n岗位名称：{job_title}\n表现亮点：{strengths}\n存在问题：{weaknesses}\n推荐意见：{recommendation}",
+        "en": "You are an HR representative. Please summarize the interview performance of a candidate including strengths, weaknesses, and hiring recommendation.\n\nCandidate: {candidate_name}\nJob Title: {job_title}\nStrengths: {strengths}\nWeaknesses: {weaknesses}\nRecommendation: {recommendation}"
+      }
+    }
+  },
+
+
+
+  "Training & Development": {
+    "Training Outline Generator": {
+      "template_name": {
+        "zh": "培训课程设计",
+        "en": "Training Curriculum Designer"
+      },
+      "content": {
+        "zh": "你是一位企业培训讲师，请根据以下输入信息，设计一个逻辑清晰的内部培训课程大纲。\n\n培训主题：{training_topic}\n目标群体：{target_group}\n目标技能：{skills_to_cover}\n总时长：{duration}",
+        "en": "You are a corporate trainer. Design a structured training curriculum based on the input below.\n\nTopic: {training_topic}\nTarget Audience: {target_group}\nSkills to Cover: {skills_to_cover}\nTotal Duration: {duration}"
+      }
+    },
+    "Employee Feedback Summary": {
+      "template_name": {
+        "zh": "员工培训反馈总结",
+        "en": "Employee Training Feedback Summary"
+      },
+      "content": {
+        "zh": "你是一位培训组织者，请根据以下内容撰写培训反馈总结，包括满意度、收获与建议。\n\n培训名称：{training_name}\n参与人数：{participant_count}\n反馈亮点：{positive_feedback}\n待改进点：{improvement_areas}",
+        "en": "You are a training organizer. Summarize training feedback based on the following inputs.\n\nTraining Name: {training_name}\nParticipants: {participant_count}\nPositive Feedback: {positive_feedback}\nAreas for Improvement: {improvement_areas}"
+      }
+    }
+  },
+
+
+
+  "Operations": {
+    "Meeting Minutes Generator": {
+      "template_name": {
+        "zh": "会议纪要生成器",
+        "en": "Meeting Minutes Generator"
+      },
+      "content": {
+        "zh": "你是一名会议助理，请根据以下内容生成格式清晰、要点突出的会议纪要。\n\n会议主题：{meeting_topic}\n与会人员：{attendees}\n讨论要点：{discussion_points}\n结论与待办事项：{action_items}",
+        "en": "You are a meeting assistant. Generate well-organized meeting minutes based on the inputs below.\n\nMeeting Topic: {meeting_topic}\nAttendees: {attendees}\nDiscussion Points: {discussion_points}\nAction Items: {action_items}"
+      }
+    },
+    "Task Briefing Generator": {
+      "template_name": {
+        "zh": "任务说明书生成器",
+        "en": "Task Briefing Generator"
+      },
+      "content": {
+        "zh": "你是一位项目负责人，请撰写一份任务说明，清晰描述任务目标、要求与截止时间。\n\n任务名称：{task_name}\n目标与背景：{objective}\n执行要求：{requirements}\n截止日期：{deadline}",
+        "en": "You are a project lead. Write a task briefing to clearly communicate objective, requirements, and deadline.\n\nTask Name: {task_name}\nObjective and Background: {objective}\nExecution Requirements: {requirements}\nDeadline: {deadline}"
+      }
+    }
+  },
+
+
+
+  "General Work": {
+    "Enhanced Work Email": {
+      "template_name": {
+        "zh": "工作邮件模板",
+        "en": "Work Email Template"
+      },
+      "content": {
+        "zh": "你是一位{your_role}，请根据以下信息撰写一封清晰、礼貌、结构合理的工作邮件。\n\n收件人身份/部门：{recipient_role}\n沟通目的：{email_purpose}\n你的请求：{your_request}\n补充背景与细节：{background_detail}",
+        "en": "You are a {your_role}. Please draft a clear, polite, and well-structured work email using the information below.\n\nRecipient Role/Department: {recipient_role}\nPurpose of Communication: {email_purpose}\nYour Request: {your_request}\nOptional Background Details: {background_detail}"
+      }
+    }
+  }
+}
